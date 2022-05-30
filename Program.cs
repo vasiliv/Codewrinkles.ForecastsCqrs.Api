@@ -1,4 +1,6 @@
+using ForecastsCqrs.Application.Queries;
 using ForecastsCqrs.Infrastrucure;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>(options => options.UseInMemoryDatabase("myDb"));
+builder.Services.AddMediatR(typeof(GetAllForecastsQuery));
 
 var app = builder.Build();
 
