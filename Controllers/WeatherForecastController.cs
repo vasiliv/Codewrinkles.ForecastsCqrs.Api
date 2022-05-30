@@ -13,7 +13,7 @@ namespace ForecastsCqrs.Api.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public async Task <IActionResult>Get()
+        public async Task <IActionResult>GetAll()
         {
             await Task.Delay(10);
             return Ok("Hello");

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForecastsCqrs.Core", "..\Fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForecastsCqrs.Infrastrucure", "..\ForecastsCqrs.Infrastrucure\ForecastsCqrs.Infrastrucure.csproj", "{88DB8915-D8FE-45DD-A658-87CE7299B778}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForecastsCqrs.Application", "..\ForecastsCqrs.Application\ForecastsCqrs.Application.csproj", "{AC77CB73-4444-4AAD-8CBA-4693ABFDAF70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{88DB8915-D8FE-45DD-A658-87CE7299B778}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88DB8915-D8FE-45DD-A658-87CE7299B778}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88DB8915-D8FE-45DD-A658-87CE7299B778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC77CB73-4444-4AAD-8CBA-4693ABFDAF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC77CB73-4444-4AAD-8CBA-4693ABFDAF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC77CB73-4444-4AAD-8CBA-4693ABFDAF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC77CB73-4444-4AAD-8CBA-4693ABFDAF70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
