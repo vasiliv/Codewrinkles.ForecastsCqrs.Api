@@ -1,5 +1,6 @@
 using ForecastsCqrs.Application.Commands;
 using ForecastsCqrs.Application.Queries;
+using ForecastsCqrs.Core;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
